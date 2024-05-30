@@ -8,11 +8,47 @@ body{
  justify-content: space-between;
 }
 
+.header{
+ display: flex;
+ flex-direction: column;
+ 
+}
 
 
 .header-content-1{
  display: flex;
- justify-content: space-between;
+ justify-content: space-around;
+ align-items: center;
+ 
+}
+
+ul{
+ display: flex;
+ margin: 0;
+ padding: 0;
+ gap: 12px;
+}
+
+ul li{
+ display: flex;
+ align-items: center;
+}
+
+.header-content-2{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.header-content-2 h1{
+ font-size: 48px;
+ font-weight: 800;
+ color: #F9FAF8
+}
+
+.header-content-2 p{
+ font-size: 18px;
+ color: #E5E7EB;
 }
 
 .logo{
