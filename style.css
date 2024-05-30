@@ -6,20 +6,17 @@ body{
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ margin: 0;
+ font-family: Arial, sans-serif;
 }
 
 .header{
  display: flex;
- flex-direction: column;
- 
-}
-
-
-.header-content-1{
- display: flex;
  justify-content: space-around;
- align-items: center;
- 
+ padding-top: 20px;
+ padding-bottom: 150px;
+ padding-left: 30px;
+ padding-right: 30px;
 }
 
 ul{
@@ -27,6 +24,7 @@ ul{
  margin: 0;
  padding: 0;
  gap: 12px;
+ padding-bottom: 60px;
 }
 
 ul li{
@@ -34,19 +32,25 @@ ul li{
  align-items: center;
 }
 
-.header-content-2{
- display: flex;
- justify-content: space-around;
- align-items: center;
+ul li a{
+ text-decoration: none;
+ color: #E5E7EB;
+ font-size: 18px;
 }
 
-.header-content-2 h1{
+.header-content-2{
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+
+.header-content-1 h1{
  font-size: 48px;
  font-weight: 800;
  color: #F9FAF8
 }
 
-.header-content-2 p{
+.header-content-1 p{
  font-size: 18px;
  color: #E5E7EB;
 }
@@ -54,6 +58,27 @@ ul li{
 .logo{
  font-size: 24px;
  color: #F9FAF8;
+ padding-bottom: 70px;
+}
+
+.picture{
+ padding: 0;
+ margin: 0;
+ box-sizing:border-box;
+ height: 200px;
+ width: 400px;
+ background-color: #666;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.button-1 button{       
+ /* 
+ Notes to self(cause i forget :3 ): this is targeting the button element inside the div with class button-1. Keep in mind that when you try to increase the paddings of button-1 it will increase the paddings of the container of the button not the button itself to change the paddings of the button you need to target the button element!
+ */
+
+ padding: 5px 15px;
 }
 
 
@@ -61,6 +86,5 @@ ul li{
 .footer{
  display: flex;
  flex-direction: column;
- 
  align-items: center;
 }
