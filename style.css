@@ -106,7 +106,7 @@ ul li a{
  flex-direction: column;
  justify-content: center;
  align-items: center;
- width: 100px; /* Wrote this to make the width of the info container same as the width of cards*/
+ width: 150px; /* Wrote this to make the width of the info container same as the width of cards*/
  align-self: baseline;
 }
  .info p {
@@ -120,8 +120,8 @@ ul li a{
  padding: 0;
  margin: 0;
  box-sizing:border-box;
- height: 100px;
- width: 100px;
+ height: 150px;
+ width: 150px;
  border-radius: 6px;
  border: 2px solid #3882F6;
  background-size: cover; /* wrote this to make sure that the image covers the entire div */
